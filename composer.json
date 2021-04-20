@@ -1,6 +1,6 @@
 {
     "name": "zobayer/laravel-file-manager",
-    "description": "this will send email",
+    "description": "Laravel File Manager has complete file upload management system.",
     "type": "library",
     "license": "MIT",
     "authors": [
