@@ -50,15 +50,13 @@ class FileManagerCommand extends Command
         print_r(Artisan::output());
         print_r("\e[1;34m ..................................\n" . PHP_EOL);
         print_r("\e[1;32m Migration Complete\n" . PHP_EOL);
-
-//        print_r("\n");
-//        print_r("\n");
-//        print_r("\e[1;35m Publishing Package Config Files\n" . PHP_EOL);
-//        Artisan::call('vendor:publish --provider=zobayer\LaravelFileManagerServiceProvider');
-//        Artisan::call('vendor:publish --provider="zobayer\LaravelFileManagerServiceProvider"');
-//        print_r(Artisan::output());
-//        print_r("\e[1;34m ..................................\n" . PHP_EOL);
-//        print_r("\e[1;32m Publish Complete\n" . PHP_EOL);
+        print_r("\n");
+        print_r("\n");
+        print_r("\e[1;33m List of available routes \n");
+        Artisan::call('route:list', ['--name' => 'laravel.file.manager']);
+        print_r(Artisan::output());
+        print_r("\n");
+        print_r("\n");
         print_r("\e[1;32m Initialization Completed\n" . PHP_EOL);
 
     }
