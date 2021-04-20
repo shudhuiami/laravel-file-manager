@@ -11,16 +11,20 @@ Laravel File Manager has complete file upload management system.
 composer require zobayer/laravel-file-manager
 ```
 
-## Initialization Package
-```
-php artisan FileManager:init
-```
-
-
 ## Load Package
 `Add this in providers [ config/app.php ]`
 ```
 zobayer\LaravelFileManager\LaravelFileManagerServiceProvider::class
+```
+
+## Publish the Config File
+```
+php artisan vendor:publish --provider="zobayer\LaravelFileManager\LaravelFileManagerServiceProvider"
+```
+
+## Initialization Package
+```
+php artisan FileManager:init
 ```
 
 
