@@ -1,0 +1,19 @@
+{
+    "name": "zobayer/laravel-file-manager",
+    "description": "this will send email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Zobayer",
+            "email": "a.zobayer@3dvi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "zobayer\\LaravelFileManager\\": "src/"
+        }
+    }
+}
